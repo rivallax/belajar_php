@@ -13,7 +13,60 @@ Suatu fungsi akan dieksekusi dengan panggilan ke fungsi tersebut.-->
 Deklarasi fungsi yang ditentukan pengguna dimulai dengan kata kunci function, diikuti dengan nama fungsi: 
 
     <-sourch code -> 
--->
+--><html>
+<body>
+
+
+
+<body>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="index.css">
+    
+    <div class="container mt-5 d-flex justify-content-center">
+
+        <div class="card p-3">
+
+            <div class="d-flex align-items-center">
+
+                <div class="image">
+            <img src="waa.jpg" class="rounded" width="150" >
+            </div>
+
+            <div class="ml-3 w-100">
+                
+               <h4 class="mb-0 mt-0">RIVALDI AKBAR</h4>
+               <span>SOFTWARE ENGINEERING</span>
+
+
+               <div class="p-2 mt-2 bg-primary d-flex justify-content-between rounded text-white stats">
+                <div class="d-flex flex-column">
+
+                    <span class="articles">belajar php dasar</span>
+                    <span class="number1">array</span>
+                </div>
+               </div>
+
+
+               <div class="button mt-2 d-flex flex-row align-items-center">
+
+                <button class="btn btn-sm btn-outline-primary w-100">Chat</button>
+                <button class="btn btn-sm btn-primary w-100 ml-2">Follow</button>
+
+                   
+               </div>
+
+
+           
+            </div>
+        
+    </div>
+            
+        </div>
+         
+     </div>
+</div>
+<pre>
+
 <?php
 function myMessage() {
   echo "Hello world!";
@@ -21,6 +74,11 @@ function myMessage() {
 
 myMessage();
 ?> 
+
+
+</pre>
+</body>
+</html>
 
                 <!-- Argumen Fungsi PHP ->
 Informasi dapat diteruskan ke fungsi melalui argumen. Argumen sama seperti variabel.
